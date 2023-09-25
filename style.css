@@ -1,0 +1,425 @@
+.container {
+  width: 100%;
+}
+.innercontainer {
+  width: 80%;
+  margin: auto;
+  /* height: 400vh; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+li {
+  list-style-type: none;
+  font-family: Mulish;
+  font-size: 18px;
+  /* color: #1F1534; */
+}
+li:hover {
+  color: #1f1534;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* --------------------hero section-------------- */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.herotext {
+  width: 50%;
+  margin-top: 2rem;
+}
+.heroimg {
+  width: 50%;
+}
+.heroimg img {
+  width: 100%;
+}
+
+.herotext h2 {
+  width: 90%;
+  color: black;
+  font-family: Mulish;
+  font-size: 48px;
+}
+
+.herotext p {
+  width: 80%;
+  font-family: Mulish;
+  font-size: 17px;
+  font-weight: 300;
+  color: #7d7987;
+}
+.herotext button {
+  border-radius: 55px;
+  background-color: #458ff6;
+  color: white;
+  font-family: mullish;
+  font-size: 90%;
+  border: none;
+  width: 180px;
+  height: 39px;
+  padding: 0.5em 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(7, 7, 105);
+}
+
+.allcards {
+  text-align: center;
+  /* display: flex; */
+  margin-top: 4rem;
+}
+
+/* .topservices {
+} */
+.cardsA {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #7d7987;
+  background: #fff;
+}
+.cardsB {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #7d7987;
+  background: #fff;
+}
+
+.cardlist {
+  width: 220px;
+  padding: 3rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 1em;
+}
+.cardlist h3 {
+  color: #1f1534;
+}
+
+.learnmorebtn {
+  /* margin: auto;
+  width: 160px;
+  height: 40px; */
+  text-align: center;
+}
+
+.learnmoremainbtn {
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 5em;
+  color: #458ff6;
+  border: 1px solid #458ff6;
+}
+.bgelement {
+  position: absolute;
+  z-index: -1;
+  margin-left: -5em;
+}
+
+/* Leading Health acre ------------- */
+.leadingcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12em;
+}
+.healthcareimage {
+  width: 40%;
+}
+
+.healthcareimage img {
+  width: 100%;
+}
+
+.healthcaretexts {
+  width: 50%;
+}
+
+.healthcaretexts h2{
+  color: #000;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700; 
+} 
+
+.healthcaretexts p{
+  color: #7D7987;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300; 
+}
+
+.healthcaretexts button {
+  width: 120px;
+  height: 35px;
+  border-radius: 12px;
+  border: 1px solid #458ff6;
+  color: #458ff6;
+}
+
+.downloadcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8em;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.downloadtexts {
+  width: 50%;
+}
+
+.downloadimage {
+  width: 40%;
+}
+
+.downloadimage img {
+  width: 100%;
+}
+
+
+.downloadtexts h2{
+  color: #000;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700; 
+  width: 70%
+} 
+
+.downloadtexts p{
+  color: #7D7987;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300; 
+  width: 73%;
+}
+
+.downloadtexts button {
+  width: 120px;
+  height: 35px;
+  border-radius: 12px;
+  border: 1px solid #458ff6;
+  color: #458ff6;
+}
+
+/* ----- customer----------------- */
+
+.customer {
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 1em;
+  margin-top: 10em;
+  height: 300px;
+}
+.topcustomer {
+  text-align: center;
+  padding-top: 2em;
+}
+.topcustomer hr {
+  width: 3em;
+  border: 1px solid white;
+}
+.topcustomer h1 {
+  color: white;
+  font-family: Mulish;
+}
+
+.maincustomer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.customer_profile {
+  width: 40%;
+  display: flex;
+  margin-left: 3em;
+  /* justify-content: space-evenly; */
+}
+
+.customer_text {
+  width: 50%;
+  padding-left: 3em;
+}
+
+.customer_profile_text {
+  padding-left: 1.5em;
+  padding-top: 2em;
+  line-height: 0%;
+  color: white;
+  font-family: Mulish;
+}
+.customer_text p {
+  font-family: Mulish;
+  font-size: 15px;
+  text-align: left;
+  color: white;
+  width: 80%;
+  line-height: 25px;
+}
+
+/* =========-----------------------ARTICLE COMPONENTS--------------- */
+.toparticle {
+  font-family: Mulish;
+  margin-top: 12em;
+}
+.toparticle h2 {
+  text-align: center;
+}
+.toparticle hr {
+  width: 47px;
+  border: 1.5px solid black;
+}
+.articlecards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+  position: relative;
+}
+.article_img img {
+  width: 100%;
+}
+.Acard {
+  width: 31%;
+  box-shadow: 10px 40px 50px 0px #e5e9f666;
+  cursor: pointer;
+}
+.Acard:hover {
+  box-shadow: 0px 2px 3px 0px #1a1c2366;
+}
+.article_texts {
+  padding: 1em;
+}
+.article_texts {
+  font-size: 14px;
+}
+
+.article_btn button {
+  width: 125px;
+  height: 32px;
+
+  border-radius: 55px;
+  margin: auto;
+  border: 1px solid #458ff6;
+  color: #458ff6;
+}
+
+.article_btn {
+  text-align: center;
+  margin-top: 5em;
+}
+.articlereadmore {
+  color: #458ff6;
+  margin-top: 2em;
+}
+.article_bg img {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  margin-top: -4em;
+}
+
+/*    footer-------- */
+
+footer {
+  width: 100%;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+
+  color: white;
+}
+
+.footer_container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10em;
+  padding-top: 4em;
+}
+
+.foot_logo {
+  width: 40%;
+}
+.foot_logo p {
+  font-family: Mulish;
+  font-size: 13px;
+}
+.foot ul li {
+  font-family: Mulish;
+  font-size: 13px;
+
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.foot h3 {
+  font-weight: 100;
+  margin-left: 2em;
+}
+
+
+
+/* -------- media query ------------ */
+
+@media screen and (max-width: 1024px){
+  .herotext h2 {
+    width: 95%;
+    color: black;
+    font-family: Mulish;
+    font-size: 40px;
+  }
+  
+  .herotext p {
+    width: 90%;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 300;
+    color: #7d7987;
+    padding-bottom: 1rem;
+}
+.herotext p {
+  width: 90%;
+  font-family: Mulish;
+  font-size: 17px;
+  font-weight: 300;
+  color: #7d7987;
+  line-height: 30px;
+
+}
+
+.download p {
+  font-family: mulish;
+  font-size: 15.5px;
+  font-weight: 300;
+  line-height: 30px;
+  font-style: normal;
+  color: #7d7987;
+  width: 100%;
+}
+}
